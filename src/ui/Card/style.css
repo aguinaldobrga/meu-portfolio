@@ -1,0 +1,89 @@
+/* Layout padrão para telas menores */
+.card-projeto {
+  display: flex; 
+  flex-direction: column;
+  background-color: var(--bg-secondary);
+ 
+  border-radius: var( --border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+ 
+}
+
+
+.card-image-contener {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-corver {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content-wrapper {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 2rem;
+}
+
+.card-habilidades-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.card-descrition {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.card-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.card-list > li {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.card-buttun-projeto {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: auto; 
+}
+
+
+@media (min-width: 768px) {
+  .card-projeto {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .card-image-contener,
+  .card-content-wrapper {
+    flex: 1;
+  }
+
+  .card-image-contener {
+    border-radius: 8px 0 0 8px;
+  }
+}

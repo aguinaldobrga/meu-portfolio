@@ -1,0 +1,32 @@
+.btn-geral {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.8rem;
+  background: linear-gradient(
+    135deg,
+    var(--accent-gradient-start),
+    var(--accent-gradient-end)
+  );
+  color: var(--text-primary);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.btn-geral:hover {
+  box-shadow: var(--shadow);
+  opacity: 0.8;
+  transform: scale(1);
+}
+
+.btn-geral .btn-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--text-primary);
+  
+}

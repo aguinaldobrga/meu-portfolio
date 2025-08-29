@@ -1,0 +1,77 @@
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1rem 2rem 1rem;
+  margin: var(--spacing-lg) ;
+}
+
+.sobre > h3 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+} 
+
+.carde-sobre-item > h4 {
+    font-size: 1.5rem;
+}
+
+.card-sobre {
+  display: flex;
+  background-color: var( --bg-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  
+}
+
+.carde-conteiner-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sobre-title-img > img {
+  width: 20rem;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.sobre-title-img > h2 {
+    font-size: 2rem;
+}
+
+.sobre-title-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carde-sobre-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+
+
+.carde-sobre-item p {
+  font-size: 1.2rem;
+  text-align: left;
+  color: var(--text-primary);
+}
+
+@media screen and (max-width: 860px) {
+    .carde-conteiner-sobre {
+        flex-direction: column; 
+        gap: 2rem; 
+    }
+}
+

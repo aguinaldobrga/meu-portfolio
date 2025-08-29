@@ -1,0 +1,24 @@
+.skill-item {
+  background-color: var(--bg-primary);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+  border: 0.1rem solid var( --primary-border-color);
+  margin: 3px;
+ 
+}
+
+
+.skill-icon {
+  color: var(--accent-gradient-start);
+  
+}
+
+.skill-name {
+  color: var(--text-secondary);
+}
+
+
+

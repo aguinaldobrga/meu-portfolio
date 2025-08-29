@@ -1,0 +1,23 @@
+.habilidades-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.habilidade-item { 
+    flex-basis: 50%; 
+    padding: 10px; 
+}
+
+@media screen and (max-width: 860px) {
+    .habilidades-list {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .habilidade-item {
+        flex-basis: 100%; 
+    }
+}

@@ -1,0 +1,44 @@
+#projetos {
+  padding: 6rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+.card-projetos-texto {
+  text-align: center;
+  
+}
+
+.card-projetos-texto h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.conteiner-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 1081px) {
+  .conteiner-projetos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .project-banner {
+        flex-direction: column-reverse; 
+        
+        gap: 1.5rem;
+    }
+}
