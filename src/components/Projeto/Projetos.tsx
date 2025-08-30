@@ -63,7 +63,7 @@ const Projetos = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(import.meta.env.VITE_API_URL + "/api/projects");
+        const response = await fetch(import.meta.env.VITE_API_URL + "/projects");
         if (!response.ok) {
           throw new Error(`Erro ao buscar os dados: ${response.statusText}`);
         }
