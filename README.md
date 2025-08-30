@@ -48,7 +48,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1.  Clone o repositório para o seu computador:
     ```bash
-    git clone [https://github.com/aguinaldobrga/seu-repositorio.git](https://github.com/aguinaldobrga/seu-repositorio.git)
+    git clone (https://github.com/user/seu-repositorio.git)
     ```
 2.  Entre na pasta do projeto:
     ```bash
