@@ -63,7 +63,7 @@ const Projetos = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(import.meta.env.VITE_API_URL + "/projects");
+        const response = await fetch("https://meu-portfolio-backend.onrender.com/projects");
         if (!response.ok) {
           throw new Error(`Erro ao buscar os dados: ${response.statusText}`);
         }

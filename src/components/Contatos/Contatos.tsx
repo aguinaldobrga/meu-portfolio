@@ -28,7 +28,7 @@ const Contato = () => {
     setButtonText("Enviando...");
 
     try {
-      const response = await fetch(import.meta.env.VITE_API_URL + '/send-email', {
+      const response = await fetch('https://meu-portfolio-backend.onrender.com/send-email',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
