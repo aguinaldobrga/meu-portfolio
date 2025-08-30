@@ -38,7 +38,7 @@ const Card = ({
     <div className="card-projeto">
       <div className="card-image-contener">
        
-        <img className="card-corver" src={image} alt={`Capa do projeto ${title}`} />
+        <img className="card-corver" src={`https://meu-portfolio-backend.onrender.com${image}`} alt={`Capa do projeto ${title}`} />
       </div>
 
       <div className="card-content-wrapper">
